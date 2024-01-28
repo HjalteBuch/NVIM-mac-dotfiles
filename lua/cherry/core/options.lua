@@ -11,7 +11,7 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 --line wrapping
-vim.opt.wrap = true
+vim.opt.wrap = false
 
 -- search settings
 vim.opt.ignorecase = true
@@ -19,7 +19,7 @@ vim.opt.smartcase = true
 
 -- appearance
 vim.opt.termguicolors = true
-vim.opt.background = "dark"
+-- vim.opt.background = "light"
 vim.opt.signcolumn = "yes"
 
 -- backspace
